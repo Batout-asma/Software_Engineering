@@ -10,7 +10,7 @@ This repository contains my practical works (TPs) for Software Engineering. Each
 - #### First system
 ![image](https://github.com/user-attachments/assets/1841018b-bb71-4b2c-be20-ac5f126825cc)
 
-[➡️ View Code for First System](PBA_Speed_Control/PBA_speed_control.aadl)  
+[➡️ View Code for First System](Firgure_14/PBA_speed_control.aadl)  
 
 
 
@@ -18,4 +18,4 @@ This repository contains my practical works (TPs) for Software Engineering. Each
 - #### Second system 
 ![image](https://github.com/user-attachments/assets/1841018b-bb71-4b2c-be20-ac5f126825cc)
 
-[➡️ View Code for Second System](PBA_speed_control2.aadl)  
+[➡️ View Code for Second System](Firgure_8/figure_8.aadl)  
