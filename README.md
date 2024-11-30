@@ -9,11 +9,13 @@ This repository contains my practical works (TPs) for Software Engineering. Each
 ### TP 1
 - #### First system
 ![image](https://github.com/user-attachments/assets/1841018b-bb71-4b2c-be20-ac5f126825cc)
-[➡️ View Code for First System](./TP1/first_system_code.aadl)  
+
+[➡️ View Code for First System](PBA_speed_control.aadl)  
 
 
 
 
 - #### Second system 
 ![image](https://github.com/user-attachments/assets/1841018b-bb71-4b2c-be20-ac5f126825cc)
-[➡️ View Code for Second System](./TP1/second_system_code.aadl)  
+
+[➡️ View Code for Second System](PBA_speed_control2.aadl)  
