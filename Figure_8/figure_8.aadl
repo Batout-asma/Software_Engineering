@@ -1,0 +1,97 @@
+package figure_8
+public
+
+	system sys
+	end sys;
+
+	system systemi
+		features
+			fault: in event port;
+			displayData: out event data port;
+			alarmOut: out event data port;
+			firmwareDL: in event data port;
+			displayReq: in event data port;
+			Wired: provides bus access mediumWired.impl;
+	end systemi;
+
+	system implementation systemi.impl
+		subcomponents
+			gateway: system gateway.impl;
+			sensor: system sensor.impl;
+			mediumWired: bus mediumWired.impl;
+			mediumCSMA: bus mediumCSMA.impl;
+			mediumTDMA: bus mediumTDMA.impl;
+
+		connections
+			systemi_impl_new_connection: port fault <-> sensor.fault;
+			systemi_impl_new_connection2: port sensor.publish <-> gateway.publish;
+			systemi_impl_new_connection3: port sensor.alarm <-> gateway.alarm;
+			systemi_impl_new_connection4: port gateway.alarmAck <-> sensor.alarmAck;
+			systemi_impl_new_connection5: port gateway.parRequest <-> sensor.parReq;
+			systemi_impl_new_connection6: port gateway.parUpdate <-> sensor.parUpdate;
+			systemi_impl_new_connection8: port displayReq <-> gateway.displayReq;
+			systemi_impl_new_connection7: port firmwareDL <-> gateway.firmwareDL;
+			systemi_impl_new_connection9: port gateway.alarmOut <-> alarmOut;
+			systemi_impl_new_connection10: port gateway.displayData <-> displayData;
+
+			systemi_impl_bus_connection1: bus access mediumWired <-> gateway.wirad;
+			systemi_impl_bus_connection2: bus access mediumWired <-> Wired;
+			systemi_impl_bus_connection3: bus access mediumTDMA <-> gateway.mTDMA;
+			systemi_impl_bus_connection4: bus access mediumTDMA <-> sensor.mTDMA;
+			systemi_impl_bus_connection5: bus access mediumCSMA <-> gateway.mCSMA;
+			systemi_impl_bus_connection6: bus access mediumCSMA <-> sensor.mCSMA;
+	end systemi.impl;
+
+	system gateway
+		features
+			alarmOut: out event data port;
+			displayData: out event data port;
+			displayReq: in event data port;
+			firmwareDL: in event data port;
+			publish: in event data port;
+			alarm: in event data port;
+			alarmAck: out event data port;
+			parUpdate: out event data port;
+			parRequest: out event data port;
+			mCSMA: requires bus access mediumCSMA.impl;
+			mTDMA: requires bus access mediumTDMA.impl;
+			wirad: requires bus access mediumWired.impl;
+	end gateway;
+
+	system implementation gateway.impl
+	end gateway.impl;
+
+	system sensor
+		features
+			mTDMA: requires bus access mediumTDMA.impl;
+			fault: in event port;
+			publish: out event data port;
+			alarm: out event data port;
+			alarmAck: in event data port;
+			parReq: in event data port;
+			parUpdate: in event data port;
+			mCSMA: requires bus access mediumCSMA.impl;
+	end sensor;
+
+	system implementation sensor.impl
+	end sensor.impl;
+
+	bus mediumCSMA
+	end mediumCSMA;
+
+	bus mediumTDMA
+	end mediumTDMA;
+
+	bus mediumWired
+	end mediumWired;
+
+	bus implementation mediumWired.impl
+	end mediumWired.impl;
+
+	bus implementation mediumCSMA.impl
+	end mediumCSMA.impl;
+
+	bus implementation mediumTDMA.impl
+	end mediumTDMA.impl;
+
+end figure_8;

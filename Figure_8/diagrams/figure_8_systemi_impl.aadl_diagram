@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="9e394b29-c8ab-4e2a-ac72-c5bc95337022" manual="true">
+    <element uuid="1d3a256d-64d2-4d89-923a-6f5148e4580c" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection1</seg>
+      </bo>
+      <bendpoints>
+        <point x="387.11590576171875" y="446.6666564941406"/>
+      </bendpoints>
+    </element>
+    <element uuid="19277cc0-7d40-4f72-b3e3-17ffeea023e6" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection2</seg>
+      </bo>
+      <bendpoints>
+        <point x="391.11590576171875" y="458.3333435058594"/>
+        <point x="397.11590576171875" y="458.3333435058594"/>
+        <point x="397.11590576171875" y="558.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="96baf303-0324-4a39-bcb8-a4ee49e75303" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection3</seg>
+      </bo>
+      <bendpoints>
+        <point x="391.11590576171875" y="188.6666717529297"/>
+        <point x="397.11590576171875" y="188.6666717529297"/>
+        <point x="397.11590576171875" y="313.3333435058594"/>
+      </bendpoints>
+    </element>
+    <element uuid="7fe4a887-fec3-4ed1-8320-de3d9c11d93f" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection4</seg>
+      </bo>
+      <bendpoints>
+        <point x="391.11590576171875" y="177.0"/>
+        <point x="697.3021240234375" y="177.0"/>
+        <point x="697.3021240234375" y="180.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6bbcc606-2a1a-41ed-9b2b-adc892b89c0c" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection5</seg>
+      </bo>
+      <bendpoints>
+        <point x="391.11590576171875" y="133.6666717529297"/>
+        <point x="407.11590576171875" y="133.6666717529297"/>
+        <point x="407.11590576171875" y="246.6666717529297"/>
+      </bendpoints>
+    </element>
+    <element uuid="822a5aac-ca57-4ef7-909f-cb315ef0885d" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_bus_connection6</seg>
+      </bo>
+      <bendpoints>
+        <point x="391.11590576171875" y="122.0"/>
+        <point x="697.3021240234375" y="122.0"/>
+        <point x="697.3021240234375" y="130.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="102359e3-097e-4433-83db-3fef14dd6c8e" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection</seg>
+      </bo>
+    </element>
+    <element uuid="0c3c5e9c-dd5c-4960-8b9b-dfa6fc52f229" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection10</seg>
+      </bo>
+      <bendpoints>
+        <point x="697.3021240234375" y="480.0"/>
+        <point x="697.3021240234375" y="458.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="c222c617-5858-41c0-9306-95e4ebd26a2c" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection2</seg>
+      </bo>
+    </element>
+    <element uuid="4e2de6d8-0e78-44cd-baca-2a5985e3c336" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection3</seg>
+      </bo>
+    </element>
+    <element uuid="6b39291b-1d9c-4f35-8c41-f575ae448024" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection4</seg>
+      </bo>
+    </element>
+    <element uuid="02ccc04e-4564-42be-9554-9f34c3a45abc" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection5</seg>
+      </bo>
+    </element>
+    <element uuid="24a57df3-12d7-4171-9a2c-0adafd7f7626" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection6</seg>
+      </bo>
+    </element>
+    <element uuid="5d21592a-d17c-43d8-a224-878c06ef37f8" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection7</seg>
+      </bo>
+    </element>
+    <element uuid="0f87e6f7-2feb-4663-ade7-487e31faa3c1" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection8</seg>
+      </bo>
+    </element>
+    <element uuid="acd12e8c-f63d-4548-aa46-3b901f881786" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>systemi_impl_new_connection9</seg>
+      </bo>
+      <bendpoints>
+        <point x="697.3021240234375" y="530.0"/>
+        <point x="697.3021240234375" y="508.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0bd76012-a0ac-43b7-ba50-51b42b3fea09" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarmOut</seg>
+      </bo>
+      <position x="1061.5468978881836" y="476.0"/>
+    </element>
+    <element uuid="8d2b0788-fa74-4749-8454-01d678656714" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>displayData</seg>
+      </bo>
+      <position x="1046.7096557617188" y="426.0"/>
+    </element>
+    <element uuid="a361974c-395d-4ac4-afa8-b4e7f397eb92" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>displayReq</seg>
+      </bo>
+      <position y="481.33333333333337"/>
+    </element>
+    <element uuid="2e6b7035-b61d-43e4-9812-512a2d714773" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>fault</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="400623e6-5739-49d4-bcf4-fbb9dd950983" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>firmwareDL</seg>
+      </bo>
+      <position y="348.0"/>
+    </element>
+    <element uuid="dec6ca1b-9f2d-4c7f-8feb-af78834011be" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>Wired</seg>
+      </bo>
+      <position x="1081.5599174499512" y="526.0"/>
+    </element>
+    <element uuid="299ccb7e-763f-4ff9-8c5a-359181d24796" manual="true">
+      <element uuid="34e44fc8-0991-4200-a5c5-0ae1f128b58c" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <position x="224.84635162353516" y="210.0"/>
+      </element>
+      <element uuid="12997ae2-6293-4e8a-899c-db8bda612083" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarmAck</seg>
+        </bo>
+        <position x="202.61978912353516" y="110.0"/>
+      </element>
+      <element uuid="5b6d45dc-3c05-41d5-99ef-5cf898e93725" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarmOut</seg>
+        </bo>
+        <position x="203.35546875" y="310.0"/>
+      </element>
+      <element uuid="db68fca5-5615-4566-bae4-ebf2e9b87ce1" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>displayData</seg>
+        </bo>
+        <position x="188.51822662353516" y="260.0"/>
+      </element>
+      <element uuid="9d8ce43b-e21f-4c0d-bef6-cb7ff002e283" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>displayReq</seg>
+        </bo>
+        <position y="293.33333333333337"/>
+      </element>
+      <element uuid="47647a07-b696-45c2-b5fc-1baf91d44cf3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>firmwareDL</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="4affaea2-984e-42f3-b7c9-154e04337a81" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mCSMA</seg>
+        </bo>
+        <position y="26.666666666666668"/>
+      </element>
+      <element uuid="7db7ded4-d483-422d-a94f-f2e8b6d2f420" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mTDMA</seg>
+        </bo>
+        <position y="93.33333333333334"/>
+      </element>
+      <element uuid="aad3b07f-b663-4bef-b2be-6183108ca11f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>parRequest</seg>
+        </bo>
+        <position x="189.25390625" y="160.0"/>
+      </element>
+      <element uuid="936f9cd3-93e0-4b88-9160-3c7cd0b2b6dd" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>parUpdate</seg>
+        </bo>
+        <position x="195.9205780029297" y="60.0"/>
+      </element>
+      <element uuid="5a6ef07e-6bec-45a4-98cb-97f58c626fcf" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>publish</seg>
+        </bo>
+        <position x="215.93358993530273" y="10.0"/>
+      </element>
+      <element uuid="2c4850e0-8daf-433e-b604-7698bd7e1c1c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wirad</seg>
+        </bo>
+        <position y="226.66666666666669"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>gateway</seg>
+      </bo>
+      <position x="417.11590576171875" y="188.0"/>
+      <size width="270.18619537353516" height="360.0"/>
+    </element>
+    <element uuid="89aa3474-7ab4-4050-acbf-9e106895a1d2" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mediumCSMA</seg>
+      </bo>
+      <position x="243.9830780029297" y="110.33333333333331"/>
+      <size width="143.1328125" height="35.0"/>
+    </element>
+    <element uuid="02e89382-9295-447d-ad75-63b03d06d20c" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mediumTDMA</seg>
+      </bo>
+      <position x="244.73177337646484" y="165.33333333333331"/>
+      <size width="142.38411712646484" height="35.0"/>
+    </element>
+    <element uuid="8a001e19-70cd-414b-a942-e841492b69c5" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mediumWired</seg>
+      </bo>
+      <position x="247.6875" y="435.0"/>
+      <size width="139.4283905029297" height="35.0"/>
+    </element>
+    <element uuid="aece8651-549f-478f-8126-08c103774418" manual="true">
+      <element uuid="d37fc21d-4ae0-45cc-b2ac-13edaa8a7ff6" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <position y="360.0"/>
+      </element>
+      <element uuid="7f03fb9b-f4ca-49f8-9e66-78f00d40e526" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarmAck</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <element uuid="cfd6bcf5-81bc-4d2c-806b-18fefab4f7bd" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fault</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="2b0defb9-0e80-4713-925d-e354dc91be93" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mCSMA</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="33df6d63-9412-4d5a-aff7-4d1072dc83b5" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mTDMA</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="90eff61a-1033-41dd-8b02-ed6155fad236" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>parReq</seg>
+        </bo>
+        <position y="310.0"/>
+      </element>
+      <element uuid="c0ceafa8-7e57-4648-89d1-183dbd6398a9" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>parUpdate</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="51cd2748-ad51-4110-ba1b-2306bd308726" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>publish</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>sensor</seg>
+      </bo>
+      <position x="707.3021240234375" y="38.0"/>
+      <size width="245.73956680297852" height="410.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>systemi.impl</seg>
+    </bo>
+    <position/>
+    <size width="1128.3776245117188" height="578.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>figure_8::systemi.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
