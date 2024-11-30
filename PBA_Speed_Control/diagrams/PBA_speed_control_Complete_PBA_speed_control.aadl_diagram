@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="726d668e-8c3a-4967-b2ea-ec35c63a6505" manual="true">
+    <element uuid="63042a63-5b9c-42b4-b241-92af55e4b38a" manual="true">
+      <element uuid="4ac74162-e2ba-4a98-92aa-1ce71f73a6bb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>control_to_throttle</seg>
+      </bo>
+    </element>
+    <element uuid="0b8db1ab-2258-4dca-80ad-8532b7f01f69" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>interface_to_marine_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="389.0" y="339.0000305175781"/>
+        <point x="780.0000610351562" y="336.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="45e66f54-d5f6-4a18-ac7e-f793ef62b62c" manual="true">
+      <element uuid="109252c9-71fe-4013-b0db-46a4e62c0531" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>interface_unit_to_control</seg>
+      </bo>
+    </element>
+    <element uuid="fcbb9928-eebb-4fe8-b817-4515f8157935" manual="true">
+      <element uuid="d524a543-e030-4479-b9cb-a3bbc9b6e5cb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>interface_unit_to_control2</seg>
+      </bo>
+    </element>
+    <element uuid="6b75be61-35ae-4ecd-b805-44ede46bc5f0" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>memory_to_marine_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1001.0000610351562" y="297.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="ca24d5b4-41c5-4420-a29f-7514abeb192d" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>processor_to_marine_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="792.0" y="440.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="0b9ca2cf-b913-4114-9570-21cb07c5b978" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>sensor_to_marine_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="341.0" y="299.0000305175781"/>
+        <point x="641.0001220703125" y="297.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="989683cf-89c2-436e-b001-7c7be21a7dcc" manual="true">
+      <element uuid="f1eaba45-d67a-444c-88f2-e5b54253fef7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed_sensor_to_control</seg>
+      </bo>
+    </element>
+    <element uuid="edb25cc8-69cf-4c03-bb44-646b722f0f7c" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>throttle_to_marine_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1147.0" y="215.99998474121094"/>
+        <point x="805.0" y="220.99998474121094"/>
+      </bendpoints>
+    </element>
+    <element uuid="a6232e6b-bbca-4ff6-9b59-42dae24e4f98" manual="true">
+      <element uuid="a468d906-1061-410e-8c7f-eef86f9905f4" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position y="80.0"/>
+      </element>
+      <element uuid="0b77e501-58bc-497a-bb80-7b6b6129861c" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>disengage</seg>
+        </bo>
+        <position x="108.52475357055664" y="65.0"/>
+      </element>
+      <element uuid="7995dbf6-f7cc-4be2-972b-561f6943f1b3" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>set_speed</seg>
+        </bo>
+        <position x="108.53125762939453" y="20.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>interface_unit</seg>
+      </bo>
+      <position x="90.0" y="180.0"/>
+      <size width="182.0612030029297" height="120.0"/>
+    </element>
+    <element uuid="c1570e98-368c-4e17-b080-c1d8989371cc" manual="true">
+      <element uuid="1a20ba8f-57e0-47c2-a5eb-8b85e650bc1f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position x="44.43620300292969" y="20.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RT_MHz350</seg>
+      </bo>
+      <position x="160.0" y="429.99999999999994"/>
+      <size width="126.84635925292969" height="60.0"/>
+    </element>
+    <element uuid="eea873ff-f4a0-40f5-ae79-b595e6dde79c" manual="true">
+      <element uuid="14ff7133-103f-4eac-bcb5-adc637975134" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>command_data</seg>
+        </bo>
+        <position x="156.09244537353516" y="20.0"/>
+      </element>
+      <element uuid="07ac5c0a-b5fe-4e9b-a679-b4958ab277ef" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>disengage</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="6cfee93a-7834-4885-b99e-e6e80f6fba69" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sensor_data</seg>
+        </bo>
+        <position y="20.0"/>
+      </element>
+      <element uuid="f4eea3e3-934e-4985-9d74-a1e1d246f7eb" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>set_speed</seg>
+        </bo>
+        <position y="65.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>speed_control</seg>
+      </bo>
+      <position x="360.0" y="40.0"/>
+      <size width="260.0" height="150.0"/>
+    </element>
+    <element uuid="cf8a2d5e-3be7-4a58-aeba-0c920caecb8c" manual="true">
+      <element uuid="4d059914-a751-4a4e-b5fd-f841a68adec8" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="976b1d7c-9f20-452a-8cc4-8e482dffe2f6" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>sensor_data</seg>
+        </bo>
+        <position x="116.33723449707031" y="29.99999999999997"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>speed_sensor</seg>
+      </bo>
+      <position x="40.0" y="30.00000000000003"/>
+      <size width="201.72264862060547" height="100.0"/>
+    </element>
+    <element uuid="734bff5e-59f6-44fa-9739-9b563798f4a3" manual="true">
+      <element uuid="8790276f-d17c-4dde-a794-a642cde3ff17" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position y="20.000000000000057"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Stand_Memory</seg>
+      </bo>
+      <position x="720.0" y="420.0"/>
+      <size width="119.41926574707054" height="60.00000000000057"/>
+    </element>
+    <element uuid="9984541f-44a6-4e94-aea8-b7ca210d6e6e" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Standard_Marine_Bus</seg>
+      </bo>
+      <position x="330.0" y="300.0"/>
+      <size width="329.9999999999999" height="69.99999999999983"/>
+    </element>
+    <element uuid="48eac276-a009-404d-967d-b3d86479f95e" manual="true">
+      <element uuid="d93f8f9c-0e4f-4e32-a588-67b0ba785e6f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position x="77.58984375000011" y="20.0"/>
+      </element>
+      <element uuid="9f6d7fe2-0e5c-44c9-a368-6e834ecc1e86" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cmd</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>throttle</seg>
+      </bo>
+      <position x="690.0" y="50.0"/>
+      <size width="160.0000000000001" height="60.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>Complete.PBA_speed_control</seg>
+    </bo>
+    <position x="300.0" y="-40.0"/>
+    <size width="890.0" height="510.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>PBA_speed_control::Complete.PBA_speed_control</seg>
+    </context>
+  </config>
+</diagram:Diagram>
