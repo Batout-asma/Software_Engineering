@@ -1,9 +1,6 @@
 package figure_8
 public
 
-	system sys
-	end sys;
-
 	system systemi
 		features
 			fault: in event port;
