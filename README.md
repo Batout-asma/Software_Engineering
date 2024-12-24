@@ -1,6 +1,6 @@
 # Software Engineering TP1
 
-This repository contains my practical work (TP) for Software Engineering. Each folder includes the related code, and resources for different topics covered in the course. The provided code files demonstrate concepts, methodologies, and solutions explored during the TPs.
+This repository contains my practical work (TP) for Software Engineering. Each folder includes the related code, and resources for different topics covered in the course. The provided code files demonstrate concepts, methodologies, and solutions explored during the TP.
 
 ### Contents  
 - **Graphs:** Visual representations of system behavior and performance.  
