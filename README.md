@@ -8,8 +8,8 @@ The provided code files demonstrate conception of some systems.(☞ﾟヮﾟ)☞
 - $${\color{green}Samar:}$$ System 2.
 
 ### Contents  
-- **Graphs:** Visual representations of system behavior and performance.  
-- **Code:** Implementation files for algorithms, models, and system simulations.
+- **Graphs:** Visual representations of system.  
+- **Code:** Implementation files for AADL codes.
 
 ### $${\color{red}First-System:}$$
 ![image](https://github.com/user-attachments/assets/1841018b-bb71-4b2c-be20-ac5f126825cc)
